@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\ConsoleConsumer\\ConsoleConsumer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\ConsoleConsumer\\ConsoleConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\ConsoleConsumer\\ConsoleConsumer.csproj",
+        "projectName": "ConsoleConsumer",
+        "projectPath": "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\ConsoleConsumer\\ConsoleConsumer.csproj",
+        "packagesPath": "C:\\Users\\d-i-e\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\ConsoleConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d-i-e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.2.58, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\d-i-e\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d-i-e\\source\\repos\\SqsExemplo\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d-i-e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

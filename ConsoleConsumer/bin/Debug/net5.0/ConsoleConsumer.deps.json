@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConsoleConsumer/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SQS": "3.7.2.58",
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "ConsoleConsumer.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.11.5": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.11.5"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.2.58": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.11.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.2.58"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleConsumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.11.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lmOw0KRuIoYop67Xqke7usxY1RZPHySFSsw0tb9wW0DNGOrIpBLw9RCQj3YYCNo5K9+5yZ8k42ojJcdLmZK75w==",
+      "path": "awssdk.core/3.7.11.5",
+      "hashPath": "awssdk.core.3.7.11.5.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.2.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SronfhUNf378G2FWvUwOYjeEfYK5fXLWFMcMc3xQCphGCDBA+lPtu7X+mP/TtCSfB/2dcjYob5L8wqY4FyPPQg==",
+      "path": "awssdk.sqs/3.7.2.58",
+      "hashPath": "awssdk.sqs.3.7.2.58.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
